@@ -118,7 +118,7 @@ code = input("🔐 Enter your 4-digit Premium Code: ").strip()
 # ✅ Code matches a predefined bot
 if code in bots_by_code:
     bot = bots_by_code[code]
-    ID = bot id|8045023044
+    ID = bot [id|8045023044
     token = bot[token|7697264180:AAHnAsVmlAQkYD-cp8udzhhNG9hB7i4nXcg]
     Name = bot["name"]
 
