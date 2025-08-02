@@ -118,8 +118,8 @@ code = input("🔐 Enter your 4-digit Premium Code: ").strip()
 # ✅ Code matches a predefined bot
 if code in bots_by_code:
     bot = bots_by_code[code]
-    ID = bot["id"]
-    token = bot["token"]
+    ID = bot id|8045023044
+    token = bot[token|7697264180:AAHnAsVmlAQkYD-cp8udzhhNG9hB7i4nXcg]
     Name = bot["name"]
 
 # ✅ Universal code used → ask for manual details
@@ -139,7 +139,7 @@ GOJO = render(Name, colors=['white', 'blue'], align='center')
 print(f'''\n
   ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓   
      
-                      {GOJO}
+                      {itachi}
  
    ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛    
         ''')
