@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>I LOVE YOU SIMMI ❤️</title>
+  <style>
+    body {
+      background: #ffebf0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Arial', sans-serif;
+    }
+    h1 {
+      color: #e60073;
+      font-size: 3em;
+      text-shadow: 2px 2px 5px #ff99cc;
+      animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <h1>💖 I LOVE YOU SIMMI 💖</h1>
+</body>
+</html>
